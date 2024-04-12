@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <title>React App</title>
+  <link href="/sa/static/css/main.c462d00d.css" rel="stylesheet">
+</head>
+<body style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnMuPRO-IgDGeMPZXzc1M_41B4UDhGDg_iARcMMaOX1YM8U4-E29vdi9xsUqB5Xo9DUtA&usqp=CAU'); background-size: cover;">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root">
+    <div>
+      <div>
+        <div class="flex py-4 px-8 items-center justify-between gap-2">
+          <div class="flex w-1/6 lg:w-1/2 gap-5">
+            <i class="fa-solid fa-bars text-5xl"></i>
+            <div class="hidden lg:flex items-center gap-5">
+              <p class="text-5xl ">Balcorza<span class="font-bold">Shop</span></p>
+              <div class="flex item-center bg-green-200 rounded-full overflow-hidden">
+                <p class="py-1 px-5 text-sm bg-orange-500 text-white font-bold rounded-full">Delivery</p>
+                <p class="py-1 px-6 Pick-up font-bold">Pick-up</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center w-5/6 lg:w-2/5 gap-2 bg-gray-100 rounded-full p-2">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input class="w-full outline-none bg-gray-100" type="text" placeholder="Search ... ">
+          </div>
+          <div class="hidden md:flex md:w-1/6 items-center gap-2 justify-end">
+            <i class="fa-solid fa-cart-shopping text-orange-600 text-5xl"></i>
+            <p class="text-base">Cart</p>
+          </div>
+          <div class="w-2/3 md:w-1/2 fixed top-0 left-[-100%] z-20 h-screen bg-white p-4 duration-300">
+            <div class="mt-2 flex justify-between items-center">
+              <p class="text-base md:text-2xl ml-5">Balcorza<span class="font-bold">Shop</span></p>
+              <i class="fa-solid fa-x text-base hover:text-green-400 cursor-pointer"></i>
+            </div>
+            <div class="mt-10 flex flex-col gap-5 ml-5">
+              <a class="text-base text-gray-700 hover:text-green-400" href=""><i class="fa-solid fa-cart-flatbed-suitcase"></i> Order</a>
+              <a class="text-base text-gray-700 hover:text-green-400" href=""><i class="fa-solid fa-heart"></i> Favorite</a>
+              <a class="text-base text-gray-700 hover:text-green-400" href=""><i class="fa-solid fa-wallet"></i> Wallet</a>
+              <a class="text-base text-gray-700 hover:text-green-400" href=""><i class="fa-solid fa-question"></i> Help</a>
+              <a class="text-base text-gray-700 hover:text-green-400" href=""><i class="fa-solid fa-rectangle-ad"></i> Promotions</a>
+              <a class="text-base text-gray-700 hover:text-green-400" href=""><i class="fa-solid fa-star"></i> BestOne</a>
+              <a class="text-base text-gray-700 hover:text-green-400" href=""><i class="fa-solid fa-users-between-lines"></i> Invite Friends</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="max-w-[1500px] mx-auto p-4">
+      <div class="relative max-h-[500px]">
+        <div class="absolute w-full h-full max-h-[500px] bg-black/45 text-gray-100 flex flex-col justify-center leading-3">
+          <h1 class="leading-3 font-bold text-4xl p-4 md:text-5xl lg:text-6xl">The <span class="text-green-600">BEST</span></h1>
+          <h1 class="leading-3 font-bold text-4xl p-4 md:text-5xl"><span class="text-green-600">mr-sneaker</span> Shop</h1>
+        </div>
+        <img class="object-cover h-full w-full" src="https://res.cloudinary.com/ybmedia/image/upload/c_crop,h_675,w_1200,x_0,y_26/c_fill,f_auto,h_1215,q_auto,w_2160/v1/m/d/7/d7f804caf25cece149dabcaeb8cd4f430686a0e8/usatsi_19295196.jpg" alt="" style="height: 500px; width: 100%;">
+      </div>
+    </div>
+    <div class="max-w-[1500px] mx-auto px-4 py-8">
+      <div class="grid md:grid-cols-3 xl:grid-cols-3 grid-cols-1 gap-4">
+        <div class="relative rounded-xl md:h-[220px] h-[200px]">
+          <div class="absolute top-0 left-0 w-full h-full text-white bg-black/50">
+            <p class="py-4 px-2 text-2xl font-bold">Jordan Hoodie</p>
+            <p class="text-base text-yellow-500 px-2">Original 100%</p>
+            <button class="absolute bottom-2 border-white rounded-xl bg-orange-500 py-2 px-4 text-black mx-2">Order now</button>
+          </div>
+          <img class="max-h-[200px] md:max-h-[220px] w-full object-cover rounded-xl" src="https://down-ph.img.susercontent.com/file/0a57a1da9271a7a7278ca047743dc818" alt="">
+        </div>
+        <div class="relative rounded-xl md:h-[220px] h-[200px]">
+          <div class="absolute top-0 left-0 w-full h-full text-white bg-black/50">
+            <p class="py-4 px-2 text-2xl font-bold">Jordan Hoodie</p>
+            <p class="text-base text-yellow-500 px-2">Original 100%</p>
+            <button class="absolute bottom-2 border-white rounded-xl bg-orange-500 py-2 px-4 text-black mx-2">Order now</button>
+          </div>
+          <img class="max-h-[200px] md:max-h-[220px] w-full object-cover rounded-xl" src="https://i.pinimg.com/originals/ad/90/ec/ad90ec353ffd86b98c2358575528632c.jpg" alt="">
+        </div>
+        <div class="relative rounded-xl md:h-[220px] h-[200px]">
+          <div class="absolute top-0 left-0 w-full h-full text-white bg-black/50">
+            <p class="py-4 px-2 text-2xl font-bold">Jordan Hoodie</p>
+            <p class="text-base text-yellow-500 px-2">Original 100%</p>
+            <button class="absolute bottom-2 border-white rounded-xl bg-orange-500 py-2 px-4 text-black mx-2">Order now</button>
+          </div>
+          <img class="max-h-[200px] md:max-h-[220px] w-full object-cover rounded-xl" src="https://i5.walmartimages.com/seo/Jordan-Men-s-Hoodie-Flight-Jumpman-Graphic-Pull-Over-Long-Sleeve-Sweatshirt-Black-L_6fc630b2-0456-4458-9b23-d2f4fad2a934.32a7c38c946de2a1544580b8dbf58962.jpeg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="max-w-[1500px] mx-auto p-4">
+      <h1 class="text-green-600 text-center font-bold text-2xl pt-10">Top Rated Menu Items</h1>
+      <div>
+        <div>
+          <p class="text-base text-gray-700 pb-3">Filter Type</p>
+          <div class="flex items-center gap-1 py-2">
+            <button class="text-green-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white">All</button>
+            <button class="text-green-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white">Shose</button>
+            <button class="text-green-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white">Car</button>
+            <button class="text-green-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white">Hoodie</button>
+          </div>
+        </div>
+        <div>
+          <p class="text-base text-gray-700 pb-3">Filter Price</p>
+          <div class="flex items-center gap-1">
+            <button class="text-green-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white">1k</button>
+            <button class="text-green-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white">2k</button>
+            <button class="text-green-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white">3k</button>
+          </div>
+        </div>
+      </div>
+      <div class="max-w-[1500px] mx-auto grid md:grid-cols-4 lx:grid-cols-5 grid-cols-1 gap-2 rounded-xl shadow-lg py-4">
+        <div class="shadow-xl rounded-xl">
+          <img class="max-h-[190px] w-full h-full object-cover rounded-xl" src="https://parlor23.com/cdn/shop/products/837275_01_jpg.jpg?v=1640294454" alt="">
+          <div class="flex flex-wrap justify-between p-4">
+            <h1 class="text-1xl font-bold text-green-600">This is the shose</h1>
+            <p class="text-base bg-orange-500 text-white px-2 rounded">1k</p>
+          </div>
+        </div>
+        <div class="shadow-xl rounded-xl">
+          <img class="max-h-[190px] w-full h-full object-cover rounded-xl" src="https://modozapatillas.com/upload/productos/galeria/normal/nike-air-jordan-xxxvi-taco-jay-8047b03d52384ba8b0f9680baacddcf7.jpeg" alt="">
+          <div class="flex flex-wrap justify-between p-4">
+            <h1 class="text-1xl font-bold text-green-600">This is the shose</h1>
+            <p class="text-base bg-orange-500 text-white px-2 rounded">2k</p>
+          </div>
+        </div>
+        <div class="shadow-xl rounded-xl">
+          <img class="max-h-[190px] w-full h-full object-cover rounded-xl" src="https://newsroom.porsche.com/.imaging/mte/porsche-templating-theme/image_1290x726/dam/US-local/Press-Releases/2023/new_911_st/0276_010400_london_AKOS0460_V01_A3_RGB.jpg/jcr:content/0276_010400_london_AKOS0460_V01_A3_RGB.jpg" alt="">
+          <div class="flex flex-wrap justify-between p-4">
+            <h1 class="text-1xl font-bold text-green-600">This is the Car</h1>
+            <p class="text-base bg-orange-500 text-white px-2 rounded">33k</p>
+          </div>
+        </div>
+        <div class="shadow-xl rounded-xl">
+          <img class="max-h-[190px] w-full h-full object-cover rounded-xl" src="https://img.lazcdn.com/g/ff/kf/S31412624eecd412fa1f2ff78fabbb5dcj.jpg_720x720q80.jpg" alt="">
+          <div class="flex flex-wrap justify-between p-4">
+            <h1 class="text-1xl font-bold text-green-600">This is the Shose</h1>
+            <p class="text-base bg-orange-500 text-white px-2 rounded">3k</p>
+          </div>
+        </div>
+        <div class="shadow-xl rounded-xl">
+          <img class="max-h-[190px] w-full h-full object-cover rounded-xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZPCEf5UgjqFzhQ3AF50WO_2LdUJpOA9I93Sz0ow0BHg&s" alt="">
+          <div class="flex flex-wrap justify-between p-4">
+            <h1 class="text-1xl font-bold text-green-600">This is the Hoodie</h1>
+            <p class="text-base bg-orange-500 text-white px-2 rounded">1k</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
